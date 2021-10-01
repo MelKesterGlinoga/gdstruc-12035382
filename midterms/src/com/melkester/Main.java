@@ -1,6 +1,5 @@
 package com.melkester;
 
-import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -109,7 +108,6 @@ public class Main {
                     {
                         break;
                     }
-
                 }
             }
             else if (x == 3)
