@@ -1,0 +1,14 @@
+// insert title here
+
+-data can be unsorted
+
+-searches index 0 and the last index
+-the function works their way towards the array
+-if one of the search function finds the element it will return its' index
+
+int start = 0;
+int end = array.length - 1;
+
+while (!neededElement)
+{
+	for ( int i = 0

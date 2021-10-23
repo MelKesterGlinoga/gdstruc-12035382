@@ -1,0 +1,22 @@
+title : 2fast2linear
+
+-data can be unsorted
+
+-searches index 0 and the last index
+-the function works their way towards the array
+-if one of the search function finds the element it will return its' index
+
+pseudo-code: 
+
+// i hab working code in the Main.java
+
+int start = 0;
+int end = input.length - 1;
+
+while (!neededElement)
+
+for loop that sorts element from the start
+inside the for loop, there is also a sorter but it starts at the end
+
+if the element is found, it returns the index position
+but, if the needed element isn't found it returns -1
